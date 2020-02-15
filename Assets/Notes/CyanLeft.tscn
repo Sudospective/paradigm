@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_color = Color( 0, 1, 1, 1 )
+
+[node name="CyanLeft" type="CSGPolygon"]
+transform = Transform( -4.37114e-08, -0.35, 1.5299e-08, 0, -1.5299e-08, -0.35, 1, -1.5299e-08, 6.6874e-16, -0.8, 0, 0 )
+polygon = PoolVector2Array( 0, 2, 0.35, 0.75, 0.1, 1.15, 0, 0, -0.11, 1.15, -0.35, 0.75 )
+depth = 0.05
+material = SubResource( 1 )

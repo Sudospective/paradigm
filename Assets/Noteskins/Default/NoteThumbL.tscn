@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_color = Color( 0, 1, 1, 1 )
+
+[node name="NoteThumbL" type="CSGPolygon"]
+collision_mask = 2
+polygon = PoolVector2Array( 0, 0.5, -0.5, 0, -0.15, 0.1, 0, -0.5, 0.15, 0.1, 0.5, 0 )
+depth = 0.03
+material = SubResource( 1 )
